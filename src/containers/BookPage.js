@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import {Segment, Loader, Container} from 'semantic-ui-react';
 import BookList from '../components/bookList/bookList';
 
-const ENDPOINT = "http://books-back-inter.herokuapp.com";
+const ENDPOINT = "https://books-back-inter.herokuapp.com";
 let socket;
 
 const BookPage = () => {
